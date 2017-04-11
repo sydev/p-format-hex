@@ -1,0 +1,22 @@
+{
+  "name": "p-format-hex",
+  "version": "1.0.0",
+  "description": "Format an hex color code into its standard format (#abc -> #ffffff), promisified",
+  "main": "p-format-hex.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": ["hex", "format", "standard", "promise"],
+  "author": {
+    "name": "Dominik Winter",
+    "email": "dominik.winter92@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.2"
+  },
+  "dependencies": {
+    "cut-hex": "^1.0.0",
+    "p-is-hex": "^1.0.0"
+  }
+}
