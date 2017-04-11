@@ -4,6 +4,14 @@
   const cut_hex = require('cut-hex');
   const is_hex  = require('p-is-hex');
 
+  /**
+   * p-format-hex
+   * 
+   * Format an hex color code into its standard format (#abc -> #ffffff), promisified
+   * 
+   * @param {String} hex_color_code
+   * @return {Promise<String>} hex
+   */
   module.exports = (hex_color_code) => {
     let err = null;
 
